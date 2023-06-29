@@ -10,7 +10,6 @@ const Gallery = () => {
             <GalleryItem key={index} item={item} />
         )
     })
-
     return (
         <div>
             {display}
